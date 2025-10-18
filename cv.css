@@ -1,0 +1,140 @@
+body{
+    background-color: #f0f0f0; 
+    width: 750px; 
+    height: 1500px;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+h1,h3{text-align:center;}
+  
+.line {
+    height: 2px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+    
+.cv-layout {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);;
+}
+
+.left{
+    width: 45%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.left h3 {
+    margin-top: 5px;
+    font-weight: normal;
+    color: #ccc;
+}
+  
+.right{
+    width: 55%;
+    background-color: white;
+    color: #222;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.right p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.edu-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 cột */
+}
+.edu-left {
+    text-align: left;
+    margin-top: 5px;
+}
+.edu-right {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 3px solid #333;
+}
+
+nav{
+    background: black;
+    color: white;
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100%;
+    width: 280px;
+    padding-top: 80px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: -5px 0 15px black;
+    transition: 0.5s ease;
+}
+.nav-links a {
+    padding:15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin: 10px 20px;
+    transition: all 0.3s ease;
+    display: block;
+}
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: scale(1.05);
+}
+.nav-links.active{
+    right:0;
+} 
+
+ .home{
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.home span{
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+.home.active span:nth-child(1){
+    transform: rotate(45deg) translate(6px, 6px);
+}
+.home.active span:nth-child(1){
+    opacity:0;
+}
+.home.active span:nth-child(1){
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
