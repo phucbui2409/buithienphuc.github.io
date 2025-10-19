@@ -135,3 +135,13 @@ nav{
     transform: rotate(-45deg) translate(6px, -6px);
 }
 
+@media (max-width: 600px) {
+    .cv-layout {
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);;
+}
+
+}
