@@ -20,76 +20,76 @@ body {
 }
 
 #shark{
-    left:100px; top:417px;
+    left:100px; top:450px;
     position:absolute;
     animation: shark 10s ease infinite;
 }
 @keyframes shark {
   0%   { left: 100px; transform: scaleX(1); }
-  50%  { left: 650px; transform: scaleX(1); }
+  50%  { left: 600px; transform: scaleX(1); }
   51%  { transform: scaleX(-1); }
   100% { left: 100px; transform: scaleX(-1); }
 }
  
 #goldfish{
-    left:110px ; top: 220px;
+    left:200px ; top: 280px;
     position:absolute;
     animation: goldfish 10s linear infinite;
  }
  @keyframes goldfish {
-    0%{left:110px; top:220px; transform: scaleX(1);}
-    25%{left:200px; top:280px; transform: scaleX(1);}
+    0%{left:200px; top:280px; transform: scaleX(1);}
+    25%{left:280px; top:320px; transform: scaleX(1);}
     26%{transform: scaleX(-1)}
-    50%{left:200px; top:220px; transform: scaleX(-1);}
-    75%{left:110px; top:280px; transform: scaleX(-1);}
+    50%{left:280px; top:280px; transform: scaleX(-1);}
+    75%{left:200px; top:320px; transform: scaleX(-1);}
     76%{transform: scaleX(1)}
-    100%{left:110px; top:220px; transform: scaleX(1);}
+    100%{left:200px; top:280px; transform: scaleX(1);}
  }
 
  #turtle{
-    left:650px; top: 250px;
+    left:500px; top: 250px;
     position: absolute;
     animation: turtle 28s ease infinite;
  }
  @keyframes turtle{
-    0%{left:650px; top: 250px;transform: scaleX(-1);}
-    48%{left:500px; top: 200px;transform: scaleX(-1);}
-    52%{left:500px; top: 200px;transform: scaleX(1);}
-    96%{left:650px; top: 250px;transform: scaleX(1);}
+    0%{left:500px; top: 250px;transform: scaleX(-1);}
+    48%{left:350px; top: 200px;transform: scaleX(-1);}
+    52%{left:350px; top: 200px;transform: scaleX(1);}
+    96%{left:500px; top: 250px;transform: scaleX(1);}
  }
 
  #diver1{
-    left:500px; top:30px;
+    left:500px; top:60px;
     position:absolute;
     animation: diver1 5s linear infinite;
  }
  @keyframes diver1 {
-    0%{left:500px;top:30px;transform: scaleX(1);}
-    50%{left:500px;top:90px;transform: scaleX(1);}
+    0%{left:500px;top:60px;transform: scaleX(1);}
+    50%{left:500px;top:120px;transform: scaleX(1);}
     51%{transform: scaleX(-1);}
-    100%{left:500px;top:30px;transform: scaleX(-1);}
+    100%{left:500px;top:60px;transform: scaleX(-1);}
  }
   #diver2{
-    left:600px; top:30px;
+    left:600px; top:60px;
     position:absolute;
     animation: diver2 5s linear 2s infinite;
  }
   @keyframes diver2 {
-    0%{left:600px;top:30px;transform: scaleX(1);}
-    50%{left:600px;top:90px;transform: scaleX(1);}
+    0%{left:600px;top:60px;transform: scaleX(1);}
+    50%{left:600px;top:120px;transform: scaleX(1);}
     51%{transform: scaleX(-1);}
-    100%{left:600px;top:30px;transform: scaleX(-1);}
+    100%{left:600px;top:60px;transform: scaleX(-1);}
  }
   #diver3{
-    left:700px; top:30px;
+    left:700px; top:60px;
     position:absolute;
     animation: diver3 5s linear 4s infinite;
  }
   @keyframes diver3 {
-    0%{left:700px;top:30px;transform: scaleX(1);}
-    50%{left:700px;top:90px;transform: scaleX(1);}
+    0%{left:700px;top:60px;transform: scaleX(1);}
+    50%{left:700px;top:120px;transform: scaleX(1);}
     51%{transform: scaleX(-1);}
-    100%{left:700px;top:30px;transform: scaleX(-1);}
+    100%{left:700px;top:60px;transform: scaleX(-1);}
  }
 
 #bong1, #bong2, #bong3 {
@@ -102,18 +102,18 @@ body {
     z-index: 10;
 }
 #bong1 {
-    left: 20%; 
-    top: 90%; 
+    left: 15%; 
+    top: 95%; 
     animation: bubble-up 8s infinite ; 
 }
 #bong2 {
-    left: 40%; 
-    top: 85%;
+    left: 45%; 
+    top: 90%;
     animation: bubble-up 9s 2s infinite;
 }
 #bong3 {
-    left: 60%;
-    top: 92%;
+    left: 55%;
+    top: 97%;
     animation: bubble-up 7s 4s infinite ease-out;
 }
 @keyframes bubble-up {
