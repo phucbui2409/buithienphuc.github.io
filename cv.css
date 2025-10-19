@@ -137,6 +137,10 @@ nav{
 
 /* Media Query: Áp dụng khi chiều rộng màn hình <= 600px */
 @media (max-width: 600px) {
+    .h1{
+        font-size: 5px
+    }
+        
     .cv-layout {
         flex-direction: column; 
         width: 95%; 
@@ -155,8 +159,5 @@ nav{
         width: 100px; 
         height: 100px;
         margin: 10px auto; 
-    }
-    h1, h2 {
-        font-size: 1.5em; 
     }
 }
