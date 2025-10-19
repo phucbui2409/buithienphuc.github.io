@@ -15,9 +15,8 @@ body {
   overflow: hidden;
   background-image: url("images/midnight.png");
   background-size: cover;
-  background-position: right;
+  background-position: left;
   position: relative;
-  left:0;
 }
 
 #shark{
