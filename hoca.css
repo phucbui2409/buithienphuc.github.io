@@ -15,20 +15,19 @@ body {
   overflow: hidden;
   background-image: url("images/midnight.png");
   background-size: cover;
-  background-position: left center;
   position: relative;
 }
 
 #shark{
-    left:100px; top:417px;
+    left:150px; top:417px;
     position:absolute;
     animation: shark 10s ease infinite;
 }
 @keyframes shark {
-  0%   { left: 100px; transform: scaleX(1); }
-  50%  { left: 650px; transform: scaleX(1); }
+  0%   { left: 150px; transform: scaleX(1); }
+  50%  { left: 750px; transform: scaleX(1); }
   51%  { transform: scaleX(-1); }
-  100% { left: 100px; transform: scaleX(-1); }
+  100% { left: 150px; transform: scaleX(-1); }
 }
  
 #goldfish{
