@@ -135,13 +135,42 @@ nav{
     transform: rotate(-45deg) translate(6px, -6px);
 }
 
-@media (max-width: 600px) {
+/* --- RESPONSIVE CSS CHO ĐIỆN THOẠI VÀ TABLET NHỎ --- */
+@media (max-width: 768px) {
+    body {
+        height: auto; 
+    }
     .cv-layout {
-    display: flex;
-    width: 90%;
-    height: 100vh;
-    margin: 30px auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);;
-}
-
+        height: auto; 
+        width: 95%; 
+        flex-direction: column; 
+        margin: 10px auto; 
+    }
+    .left, .right {
+        width: 100%; 
+        padding: 20px 15px; 
+    }
+    
+    h1 {
+        font-size: 26px; 
+    }
+    .right p {
+        font-size: 14px; 
+        line-height: 1.5; 
+    }
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 15px auto; 
+    }
+    .edu-item {
+        grid-template-columns: 1fr; 
+    }
+    .edu-right {
+        text-align: left;
+        margin-top: 0;
+    }
+    .nav-links {
+        width: 80%; 
+    }
 }
