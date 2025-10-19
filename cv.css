@@ -173,4 +173,21 @@ nav{
     .nav-links {
         width: 80%; 
     }
+    nav {
+    background: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    }
+    .home {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: absolute; 
+    right: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    }
 }
